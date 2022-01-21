@@ -1,0 +1,52 @@
+/* Write your code here. */
+.bgContainer {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading {
+  color: black;
+  font-family: "roboto";
+  font-size: 40px;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+
+.boxSizing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box1 {
+  background-color: #fbbf24;
+  height: 100px;
+  width: 100px;
+}
+
+.box2 {
+  background-color: #38bdf8;
+  height: 300px;
+  width: 300px;
+}
+
+.box3 {
+  background-color: #ec4899;
+  height: 500px;
+  width: 500px;
+}
+
+.boxTitle {
+  color: white;
+  font-size: 20px;
+  font-family: "roboto";
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 12px;
+}
